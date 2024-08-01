@@ -11,7 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 #bootstrap for styling
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'bootstrap-sass', '~> 3.4'
 #faker to generate random posts
 gem 'faker', '~> 1.6', '>= 1.6.6'
 
@@ -20,7 +20,7 @@ gem 'compass-rails', '3.0.2'
 gem 'chosen-rails', '1.5.2'
 
 #Devise for user authentication
-gem 'devise', '~> 4.2'
+gem 'devise', '~> 4.7'
 
 group :development, :test do
   gem 'byebug'
